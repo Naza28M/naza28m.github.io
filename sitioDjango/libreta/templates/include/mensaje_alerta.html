@@ -1,0 +1,20 @@
+{% if 'Actualizado' in request.GET %}
+	<div class="alert alert-info alert-dismissible fade show" role="alert">
+		Receta <strong>Modificada</strong> con Exito
+		<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+	</div>	
+{% endif %}
+
+{% if 'Eliminado' in request.GET %}
+	<div class="alert alert-danger alert-dismissible fade show" role="alert">
+		Receta <strong>Eliminada</strong> con Exito
+		<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+	</div>	
+{% endif %}
+
+{% if 'Creado' in request.GET %}
+	<div class="alert alert-success alert-dismissible fade show" role="alert">
+		Receta <strong>Creada</strong> con Exito
+		<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+	</div>	
+{% endif %}

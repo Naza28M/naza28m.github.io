@@ -1,0 +1,92 @@
+{%extends "core/base.html" %}
+
+{% block title%} Trabajos Realizados {%endblock %}
+{%block content %}
+
+<div class="container">
+  <h4>Nuestros Productos</h4>
+  <div class="row">
+    <div class="col-md-12 search">
+      <form method="get">
+        <div id= custom-search-input>
+          <div class="input-group col-md-12">
+            <input type="texto" class="form-control" placeholder="Buscar..." name="buscar" value="{{ request.GET.buscar}}">
+            <span class="input-group-list">
+              <i class="icon icon-search"></i>
+              <button  style="background-color: #b99098;" type="submit" class="w-100 btn btn-lg btn-outline-light" >Buscar</button>
+                    
+            </span>
+
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="album py-5 bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="row mb-2">
+        <p><a style="background-color: #b99098;" type="submit" class="btn btn-dark" data-bs-toggle="tooltip" data-bs-placement="right" title="Agregar un producto nuevo" href="{% url 'createP' %}">Agregar</a></p>
+        
+        {%include 'include/mensaje_alerta.html'%}
+
+<div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+{%for productos in misProductos%}
+
+<div class="col">
+    <div class="card shadow-sm">
+          <div class="card-header py-3" style="background-color: #b99098;">
+              <h4 class="my-0 fw-normal">{{productos.name}}</h4>
+          </div> 
+        <img src="{{productos.image.url}}" class="card-img-top" alt=" {{productos.name}}">
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">${{productos.price}}<small class="text-muted fw-light"></small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+                <li>{{productos.description}}</li>
+                <li>
+                    <a style="background-color: #b99098;" class="w-100 btn btn-lg btn-outline-light" href="/compras">COMPRAR</a></p>
+                    </a>
+                    <center>
+                      <div class="btn-group">
+                        <a href="{% url 'Pdetail' productos.id %}">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Detalle</button></a>
+                        <a href="{% url 'Pupdate' productos.id %}">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button></a>
+                        <a href="{% url 'Pdelete' productos.id %}">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Eliminar</button></a>
+                      </div>
+                    </center>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </div>
+
+{%endfor%}
+
+</div>
+</div>
+</div>
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

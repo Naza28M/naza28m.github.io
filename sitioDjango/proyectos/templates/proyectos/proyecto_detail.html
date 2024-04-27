@@ -1,0 +1,21 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block title %}Detalle{% endblock %}
+{% block content %}
+<div class="container">
+    <h4>Detalle del Proyecto</h4>
+<div class="container">
+    <ul class="list-group">
+        <li class="list-group-item"><h5>Nombre: {{proyecto.name}}</h5></li>
+        <li class="list-group-item"><p>Descripcion: {{proyecto.description}}</p></li>
+        <li class="list-group-item"><p>Url: <a href="{{proyecto.webside}}">{{proyecto.webside}}</a></p></li>
+        <center>
+          <li class="list-group-item"><img class="img-fluid" src="{{proyecto.image.url}}" width="600" alt=""></li>
+        </center>
+    </ul>
+      <br>
+      <div class="text-center">
+        <p><a style="background-color: #b99098;" type="submit" class="btn btn-dark" href="{% url 'proyectos' %}">Volver</a></p>
+      </div>
+</div>
+{% endblock %}
