@@ -1,0 +1,104 @@
+PARA LA VENTA:
+
+***********************************************************
+
+nombre:  Brownie Decorado 2 Pisos
+
+precio:  5500.00
+
+detalle:
+Base de Brownie con nuez, dulce de leche natural y merengue italiano.
+
+Diametro inferior 22 cm ,superior 10 cm
+
+imagen: imagen1
+
+**************************************************
+nombre:  Mousse de Chocolate
+
+precio:  3500.00
+
+detalle:Base de galletitas de chocolate, capa de dulce de leche natural, mousse de chocolate, cubierta de ganache de chocolate. Diametro 22 cm, peso estimado 2 kg
+
+imagen: imagen2
+
+************************************************************
+
+
+nombre: Mini Tarta de Frutos Rojos
+
+precio: 590.00
+
+detalle:Tarta de vainilla, rellena de crema chantilly y frutos rojos, cubierta de gelatina de frambuesa. Diametro 10 cm
+
+
+imagen: imagen3
+
+************************************************************
+
+
+nombre: Tiramisu
+
+precio:  2900.00
+
+detalle:Base de Vainillas con café, crema de café , crema chantilly y cubierta de cacao. Diametro 22 cm, peso estimado 1,8 kg
+
+imagen: imagen4
+
+************************************************************
+
+
+nombre:  Chocotorta Merengue Multicolor Decorada
+
+precio: 3900.00
+
+detalle:Galletitas de chocolate, relleno de dulce de leche y queso crema, copos de merengue italiano de color y decorada con chocolates y golosinas. Peso estimado 2 kg. 20 x 20 cm
+
+imagen: imagen5
+
+************************************************************
+
+nombre: Oreo Dulce de Leche
+
+precio:  3950.00
+
+detalle:Diametro 22 Cm. Peso aproximado 2,750 kg. Rinde aprox 20-25 Personas. Ideal para comer refrigerada o helada.
+
+imagen: imagen6
+
+************************************************************
+
+nombre:  Cheese Cake Chocolate
+
+precio:  3250
+
+detalle:Base de galletitas de chocolate, crema de queso y chocolate, cubierta de dulce de leche, salsa de frutos rojos y Frutos Rojos.
+
+Diametro 22 cm, peso estimado 1,8 kg. Rinde aprox 15 Personas
+
+imagen: imagen7
+
+************************************************************
+
+nombre:  Torta Bon O Bon
+
+precio:  2500
+
+detalle:
+Tarta de chocolate, rellena de crema de chocolate y crema de mani, cubierta con ganache de chocolate blanco y trozos de bon o bo
+Diametro inferior 22 cm 
+
+imagen: imagen8
+
+************************************************************
+
+nombre:  Chocolatoza
+
+precio:  3250
+
+Bizcochuelo humedo de chocolate, relleno de dulce de leche, y relleno de chocotorta, agregado de trozos de chocolate. Cubierta de merengue italiano y granas de chocolate.
+
+Diametro 20 Cm, peso estimado 2.6 Kg, rinde 15 personas aprox
+
+imagen: extra
+

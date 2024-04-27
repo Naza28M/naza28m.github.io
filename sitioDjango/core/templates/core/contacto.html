@@ -1,0 +1,48 @@
+{%extends "core/base.html" %}
+{% block title%} Contacto {%endblock %}
+{%block content %}
+
+<div class="container">
+  <div class="row" 
+  style="background:transparent url('../media/core/background.png') no-repeat center center /cover">
+  <h2>Formulario para formar parte del equipo MVN</h2> 
+  <br>
+  <form action="/contactar/" method="POST">{% csrf_token %}
+    <br>
+    <fieldset class="form">
+      <ul>
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="name" name="user_name" placeholder="Nombre" required="" pattern="[a-zA-Z]+"> 
+        <br><br>
+        <label for="ciudad">Ciudad:</label><br>
+        <input type="text" id="ciudad" name="ciudad" placeholder="Ciudad" pattern="[a-zA-Z]+"> 
+        <br><br>
+        <label for="pais">País:</label><br>
+        <select name="pais" id="pais">
+          <option value="Argentina">Argentina</option>
+          <option value="Brasil">Brasil</option>
+          <option value="Uruguay">Uruguay</option>
+          <option value="Paraguay">Paraguay</option>
+          <option value="Bolivia">Bolivia</option>
+        </select>
+        <br><br>
+        <label for="telefono">Telefono:</label><br>
+        <input type="text" id="telefono" name="telefono" placeholder="Número telefónico" required="" pattern="[0-9]+"> 
+        <br><br>
+        <label for="mail">Correo electrónico:</label><br>
+        <input type="email" id="mail" name="mail" placeholder="Correo Electrónico" required=""> 
+        <br><br>
+        <label for="msg">Mensaje:</label><br>
+        <textarea id="msg" name="message"placeholder="Escriba aquí su mensaje..."></textarea>
+        <br><br>
+        <input type="submit" value="Enviar" class="btn btn-outline-success"></button>
+        <input type="reset" value="Limpiar casilla" class="btn btn-outline-secondary"></button>
+      </ul>
+    </fieldset>
+    <div class="g-recaptcha" data-sitekey="6LfwwFAdAAAAAM5_Kw6us_Jqxm8UyCmkbEDTZC_S"></div>
+  </form>
+  <br>
+  </div>
+</div>
+
+{% endblock %}
